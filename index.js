@@ -83,15 +83,12 @@ client.once("ready", () => {
         content:
 `# 🔥 Mizu Hub Premium
 **💎 Use /getscriptpremium
-🔑 Use /getkey**
-```
-Use Mizu Hub for a Better Life!```
-_Boss Cuttay #1 Hubs_`
+🔑 Use /getkey**`
       });
 
     }
 
-  }, 300000);
+  }, 10);
 
 });
 
