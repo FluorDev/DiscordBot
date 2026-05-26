@@ -1,0 +1,9 @@
+{
+  "name": "Mizu Island 🎮",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "@discordjs/rest": "^2.4.0"
+  }
+}
