@@ -55,7 +55,7 @@ const rest = new REST({ version: "10" }).setToken(TOKEN);
     await rest.put(
       Routes.applicationGuildCommands(
         1508457570451460190,
-        1508132773938856079
+        1507406973266690169
       ),
       { body: commands }
     );
