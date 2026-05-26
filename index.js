@@ -81,14 +81,17 @@ client.once("ready", () => {
 
       channel.send({
         content:
-`# 🔥 Mizu Hub Premium
+`# 🔥 Mizu Hub True V2
 **💎 Use /getscriptpremium
-🔑 Use /getkey**`
+   👌🏿  Use Free /getscript
+🔑 Use /getkey**
+This is a bot message, please do not DM the bot.
+Top 1# Script By Mizu 🫪`
       });
 
     }
 
-  }, 10);
+  }, 600);
 
 });
 
