@@ -54,8 +54,8 @@ const rest = new REST({ version: "10" }).setToken(TOKEN);
 
     await rest.put(
       Routes.applicationGuildCommands(
-        CLIENT_ID,
-        GUILD_ID
+        1508457570451460190,
+        1508132773938856079
       ),
       { body: commands }
     );
@@ -81,9 +81,9 @@ client.once("ready", () => {
 
       channel.send({
         content:
-`🔥 Mizu Hub Premium
-💎 Use /getscriptpremium
-🔑 Use /getkey`
+`# 🔥 Mizu Hub Premium
+**💎 Use /getscriptpremium
+🔑 Use /getkey**`
       });
 
     }
@@ -120,7 +120,7 @@ ${FREE_SCRIPT}`,
 
       return interaction.reply({
         content:
-"❌ Bạn không có role Premium!",
+"❌ Warning: You do not have a role.",
         ephemeral: true
       });
 
@@ -190,7 +190,7 @@ ${GET_KEY_LINK}`,
 
     return interaction.reply({
       content:
-"✅ Đã gửi yêu cầu redeem!",
+"✅ currently being checked",
       ephemeral: true
     });
 
